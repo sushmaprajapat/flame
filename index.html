@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/flame/main.css">
+  <title>FLAME</title>
+  <link rel="icon" href="./image/png-clipart-f-type-logos-for-sale-black-and-red-f-logo.png">
+
+</head>
+
+<body>
+  <div class="container-fluid bg-danger p-3 container-header">
+    <div class="row align-items-center">
+      <div class="col-md-6 col-12">
+        <div class="container-header-text">
+          <i class="fa-solid fa-envelope header-icon1"></i>
+          <p class="ms-2 text-light"><small>adam@gmail.com</small></p>
+          <i class="fa-solid fa-mobile header-icon2 ms-5"></i>
+          <p class="ms-2 text-light"><small>(234)567 8901</small></p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="header-icon-dropdown d-flex align-items-center">
+          <div class="header-icons">
+            <span> <i class="fa-brands fa-facebook-f"></i></span>
+            <span><i class="fa-solid fa-dove social-media-icon"></i></span>
+            <span><i class="fa-brands fa-google-plus-g social-media-icon"></i></span>
+            <span> <i class="fa-brands fa-linkedin-in"></i></span>
+            <span> <i class="fa-brands fa-vimeo"></i></span>
+          </div>
+          <select class="btn  dropdown-toggle text-light dropdown-text">
+            <option class="dropdown-item" href="#">English</option>
+            <option class="dropdown-item" href="#">Hindi</option>
+            <option class="dropdown-item" href="#">Assamese</option>
+            <option class="dropdown-item" href="#">Japanesse</option>
+          </select>
+          <button type="button" class="btn bg-light ms-3 get-button"><small> Get a Quote</small></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="demo" class="carousel slide home-container" data-bs-ride="carousel" id="home">
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <nav class=" navbar navbar-expand-lg  Jumbotron-navbar mt-3">
+        <div class="container-fluid navbar-container">
+          <div class="d-flex align-items-center">
+            <a class="logo" href="#">f <span class="logo-border"></span>
+              <h3 class="flame-text ms-4">FLAME</h3>
+            </a>
+          </div>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-collap" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home"><b>HOME</b></a>
+                <span></span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"><b>ABOUT</b></a>
+                <span></span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service"><b>SERVICE</b></a>
+                <span></span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project"><b>PROTECT</b> </a>
+                <span></span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blogs"><b>BLOG</b> </a>
+                <span></span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"><b>CONTACT</b> </a>
+              </li>
+              <li>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal">
+                  <i class="fa-solid fa-magnifying-glass glass"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="carousel-item active">
+        <div class="image-shudo">
+        <img src="../images/female-business-executive-with-arms-crossed-conference-center.jpg" style="width:100%"
+          alt="worker-giving-ideas-project" class="d-block carousel-image">
+        </div>
+        <div class="carousel-caption">
+          <h1 class="text-light"><b>WE ARE CREATIVE <br>AGENCY </b></h1>
+          <p class="text-light lorem-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quiuos reiciendis
+            cum alipooquid cum alipooquuid quam,coniuyysequa.</p>
+          <p> <span class="three-text">Design</span><span class="text-line">|</span><span
+              class="three-text">Development</span><span class="text-line">|</span><span
+              class="three-text">Graphics</span></p>
+          <button type="button" class="btn btn-light text-button mt-4">
+            <samll>READ MORE</samll>
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="image-shudo">
+                  <img src="./image/successful-business-team-diverse-professionals-smiling-with-confidence-generated-by-ai.jpg"
+          style="width:100%" alt="businesswomen" class="d-block carousel-image">
+          </div>
+        <div class="carousel-caption">
+          <h1 class="text-light">WE ARE CREATIVE <br>AGENCY</h1>
+          <p class="text-light lorem-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quiuos reiciendis
+            cum alipooquid cum alipooquuid quam,coniuyysequa.</p>
+          <p><span class="three-text">Design</span><span class="text-line">|</span><span
+              class="three-text">Development</span><span class="text-line">|</span> <span
+              class="three-text">Graphics</span></p>
+          <button type="button" class="btn btn-light text-button mt-4">
+            <samll>READ MORE</samll>
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="image-shudo">
+        <img src="../images/female-business-executive-giving-speech.jpg" style="width:100%" alt="showing-curious"
+          class="d-block carousel-image">
+        </div>
+        <div class="carousel-caption">
+          <h1 class="text-light">WE ARE CREATIVE <br>AGENCY</h1>
+          <p class="text-light lorem-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quiuos reiciendis
+            cum alipooquid cum alipooquuid quam,coniuyysequa.</p>
+          <p><span class="three-text">Design</span><span class="text-line">|</span> <span
+              class="three-text">Development</span><span class="text-line">| </span><span
+              class="three-text">Graphics</span></p>
+          <button type="button" class="btn btn-light text-button mt-4">
+            <samll>READ MORE</samll>
+          </button>
+        </div>
+
+      </div>
+    </div>
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev carousel-button-lg" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <i class='fas fa-angle-left icon-button'></i>PRE
+    </button>
+    <button class="carousel-control-next carousel-button-lg" type="button" data-bs-target="#demo"
+      data-bs-slide="next">NEXT
+      <i class='fas fa-angle-right icon-button'></i>
+    </button>
+    <button class="carousel-control-prev carousel-button-sm d-none" type="button" data-bs-target="#demo"
+      data-bs-slide="prev">
+      <i class='fas fa-angle-left icon-button'></i>
+    </button>
+    <button class="carousel-control-next carousel-button-sm d-none" type="button" data-bs-target="#demo"
+      data-bs-slide="next">
+      <i class='fas fa-angle-right icon-button'></i>
+    </button>
+  </section>
+
+  <section class=" container home-footer-card">
+    <div class="row bg-light pt-4 pb-3 content">
+      <div class="col-md-4 icon-text border-line">
+        <i class="mt-2 fa-solid fa-dollar-sign icon"></i>
+        <p class="mt-2"><b>Fixed price project</b></p>
+        <p class="footer-text">Ont believe has request not how dety cof ort evident cousins we</p>
+      </div>
+      <div class="col-md-4 icon-text border-line">
+        <i class="mt-2 fa-regular fa-clock icon"></i>
+        <p class="mt-2"><b>Recieve On Time</b></p>
+        <p class="footer-text">Ont believe has request not how dety cof ort evident cousins we</p>
+      </div>
+      <div class="col-md-4 icon-text">
+        <i class="mt-2 fa-solid fa-check icon"></i>
+        <p class="mt-2"><b>Satisfaction Guranted</b></p>
+        <p class="footer-text">Ont believe has request not how dety cof ort evident cousins we</p>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <section class="container-fluid  about-us-container" id="about">
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center conetent-header-text">
+        <p><b>We always provide acdesign products that leads to customer satisfaction and make then to work with us
+            again and
+            again.</b></p>
+        <div class="underline-squares">
+          <span class="underline-squares-1"></span>
+          <span class="underline-squares-2"></span>
+        </div>
+      </div>
+    </div>
+    <div class="row about-row mt-4">
+      <div class="col-md-6">
+        <img class="image" src="../images/girl-sitting-table-reading-flipping-page.jpg" alt="">
+      </div>
+      <div class="col-md-6 text-conetent">
+        <h5><b>About us</b></h5>
+        <h1 class="mt-4">We do the things<br> much better!</h1>
+        <p class="mt-4 reding-text">We are digital creative agency focused on web deserign, UI/UX,SEO analysis. Our
+          paertrr sslonate teewram working togee regee rederfther to complete the job before the deadline and make the
+          clients work again with us. Perfection is our complete goal and seriously working towards it.</p>
+        <div class="mt-5 d-flex justify-content-between align-items-end">
+          <button type="button" class="btn btn-light text-button mt-5">
+            <samll>READ MORE</samll>
+          </button>
+          <div>
+            <img class="signature" src="../images/Daco_2413747.png" alt="">
+            <h6 class="mt-0 web-developer-text"><b>Daniel Josefin</b> <br>Web Developer</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="service-container container" id="service">
+    <div class="row justify-content-center ">
+      <div class="col-md-8 text-center conetent-header-text">
+        <h1><b>Service</b></h1>
+        <p><b>We always provide acdesign products that leads to customer satisfaction and make then to work with us
+            again and
+            again.</b></p>
+        <div class="underline-squares">
+          <span class="underline-squares-1"></span>
+          <span class="underline-squares-2"></span>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class=" col-lg-7">
+        <div class="row text-center justify-content-end card-conetent ">
+          <div class="col-md-5 card">
+            <i class='fas fa-reply-all icons'></i>
+            <h5 class="header-text ">Development</h5>
+            <p><small>Nunc non libero nec nuila didendum pharetra nreeec durttis dul nulla bibendum pharet</small></p>
+          </div>
+          <div class="col-md-5 card">
+            <i class='fas fa-glass-martini se icons'></i>
+            <h5 class="header-text ">Support</h5>
+            <p><small>Nunc non libero nec nuila didendum pharetra nreeec durttis dul nulla bibendum pharet</small></p>
+          </div>
+          <div class="col-md-5 card">
+            <i class="fa-solid fa-paper-plane icons"></i>
+            <h5 class="header-text ">Marketing</h5>
+            <p><small>Nunc non libero nec nuila didendum pharetra nreeec durttis dul nulla bibendum pharet</small></p>
+          </div>
+          <div class="col-md-5 card">
+            <i class='fas fa-wrench icons'></i>
+            <h5 class="header-text ">Insurence</h5>
+            <p><small>Nunc non libero nec nuila didendum pharetra nreeec durttis dul nulla bibendum pharet</small></p>
+          </div>
+        </div>
+      </div>
+      <div class=" col-lg-5">
+        <img class="image" src="../images/Daco_1762886 (1).png " alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class=" about-row chooes-container ">
+    <div class="container chooes-container">
+      <h1><b>Why Choose Us</b></h1>
+      <div class="row mt-4">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-md-12">
+              <i class="fa-solid fa-magnifying-glass icon"></i>
+              <h6 class="mt-2"><b>E-mail Marketing</b></h6>
+              <p>Financo amet,ut perspiciatis unde omnis iste natus error sit voluptatem etur
+                adip accusantium ipsum dolor
+                sit amet, etur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna </p>
+            </div>
+            <div class="col-md-12">
+              <i class='fab fa-hornbill icon'></i>
+              <h6 class="mt-2"><b>Analysis & Consulting</b></h6>
+              <p>Financo amet,ut perspiciatis unde omnis iste natus error sit voluptatem etur
+                adip accusantium ipsum dolor sit
+                amet, etur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna</p>
+            </div>
+            <div class="col-md-12">
+              <i class='fas fa-wrench icon'></i>
+              <h6 class="mt-2"><b>Quality Service & Support</b></h6>
+              <p>Financo amet,ut perspiciatis unde omnis iste natus error sit voluptatem etur
+                adip accusantium ipsum dolor sit
+                amet, etur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <!-- Carousel -->
+          <div id="demo2" class="carousel slide chooes-carousel" data-bs-ride="carousel">
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <img src="./image/young-students-classroom.jpg" alt="college-students" class="d-block image"
+                  style="width:100%">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/school-partners-sitting-their-desks.jpg" alt="" class="d-block image"
+                  style="width:100%">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/handsome-latin-man-helping-his-colleagues-out-by-explaining-some-his-work-library.jpg"
+                  alt="work-library" class="d-block image" style="width:100%">
+              </div>
+            </div>
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev carousel-button" type="button" data-bs-target="#demo2"
+              data-bs-slide="prev">
+              <i class='fas fa-angle-left' style='font-size:25px'></i>
+            </button>
+            <button class="carousel-control-next carousel-button" type="button" data-bs-target="#demo2"
+              data-bs-slide="next">
+              <i class='fas fa-angle-right' style='font-size:25px'></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletters-container">
+    <h1>Newsletters</h1>
+    <p class="newsletters-text-p">Sign up for Seosignt content, updates, surveys & offers. </p>
+    <div class="input-groupn input  mb-3">
+      <input type="text" class="form-control" placeholder="Your Email Addresss" name="email">
+      <button class="btn input-group-text input-form-buttom text-start">SUBCRIBE</button>
+    </div>
+    <div class="leptop-tebal">
+      <img class="leptop-image" src="./image/Portable-Laptop-Top-View-PNG-Image (1).png" alt="">
+      <img class="mobail-image" src="./image/pngaaa.com-188054.png" alt="mobail">
+      <img class="mouse-pointer-image" src="./image/NicePng_mouse-finger-png_3956315.png" alt="">
+      <img class="notbook-image"
+        src="./image/paper-square-area-notebook-white-white-blank-spiral-notebook-2de1e2d82d4fb31068f61fae6f42872c (1).png"
+        alt="">
+    </div>
+  </section>
+
+
+  <section class="container project-container text-center" id="project">
+    <div class="row justify-content-center">
+      <div class="col-md-7 text-center about-header-text">
+        <h1><b>Project</b></h1>
+        <p><b>We always provide acdesign products that leads to customer satisfaction and make then to work with us
+            again and
+            again.</b></p>
+        <div class="underline-squares">
+          <span class="underline-squares-1"></span>
+          <span class="underline-squares-2"></span>
+        </div>
+      </div>
+    </div>
+    <div class=" container-project-button mt-3">
+      <button type="button" class="btn button">ALL WORKS</button>
+      <button type="button" class="btn button">WED DESIGN</button>
+      <button type="button" class="btn button">DEVELOPMENT</button>
+      <button type="button" class="btn button">MARKETING</button>
+    </div class="card-show">
+    <div class="row mt-3 project-row-contener">
+      <div class="col-lg-4 col-md-6">
+        <div class="image-card">
+          <img class="image image-1" src="./image/monstera-deliciosa-plant-pot.jpg" alt="">
+          <div class="project-card-show">
+            <div class="card-show">
+              <div class="middle">
+                <h6>UL/UX DESIGN FOR XUV</h6>
+                <P>Even we treutiat all projects equally only few will stick with us. We proud to will displayto will
+                  display</P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="image-card">
+          <img class="image image-2" src="./image/327270-P9VYV7-610.jpg" alt="">
+          <div class="project-card-show">
+            <div class="card-show">
+              <div class="middle">
+                <h6>UL/UX DESIGN FOR XUV</h6>
+                <P>Even we treutiat all projects equally only few will stick with us. We proud to will displayto will
+                  display</P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="image-card">
+          <img class="image image-2 " src="./image/composition-bathroom-spa-objects.jpg" alt="">
+          <div class="project-card-show">
+            <div class="card-show">
+              <div class="middle">
+                <h6>UL/UX DESIGN FOR XUV</h6>
+                <P>Even we treutiat all projects equally only few will stick with us. We proud to will displayto will
+                  display</P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="image-card">
+          <img class="image image-1" src="./image/m011t323_a_chair_06jun22.jpg" alt="">
+          <div class="project-card-show">
+            <div class="card-show">
+              <div class="middle">
+                <h6>UL/UX DESIGN FOR XUV</h6>
+                <P>Even we treutiat all projects equally only few will stick with us. We proud to will displayto will
+                  display</P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="image-card">
+          <img class="image image-1" src="./image/close-up-cup-coffee-latte-with-kettle.jpg" alt="">
+          <div class="project-card-show">
+            <div class="card-show">
+              <div class="middle">
+                <h6>UL/UX DESIGN FOR XUV</h6>
+                <P>Even we treutiat all projects equally only few will stick with us. We proud to will displayto will
+                  display</P>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="image-card">
+          <img class="image image-2" src="./image/art-studio-table-full-materials.jpg" alt="">
+          <div class="project-card-show">
+            <div class="card-show">
+              <div class="middle">
+                <h6>UL/UX DESIGN FOR XUV</h6>
+                <P>Even we treutiat all projects equally only few will stick with us. We proud to will displayto will
+                  display</P>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-light text-button mt-5">
+      <samll>READ MORE</samll>
+    </button>
+  </section>
+
+  <section class="blogs-container about-row  text text-center" id="blogs">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center conetent-header-text">
+          <h1><b>Latest Blogs</b></h1>
+          <p><b>We always provide acdesign products that leads to customer satisfaction and make then to work with us
+              again and
+              again.</b></p>
+          <div class="underline-squares">
+            <span class="underline-squares-1"></span>
+            <span class="underline-squares-2"></span>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-4 ">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class=" belog-card ">
+            <div class="card-showbox">
+              <img class=" image" src="./image/denys-striyeshyn-wJ7yGwz2-00-unsplash.jpg" alt="Card image">
+              <div class="blogs-card-show">
+                <i class="fa-solid fa-magnifying-glass card-show-icon"></i>
+                <i class="fa fa-chain card-show-icon"></i>
+              </div>
+            </div>
+            <div class="card-body text-start">
+              <h6 class=" blogs-card-title mt-3">John Doe</h6>
+              <p class="card-text blogs-card-text">Here's a solution that coueld tackle two of the west's most urgent
+                problems yortung coueld tackle two of the west's most urgent.</p>
+              <span class="carb-body-span"></span>
+              <div class="blogs-card-icon">
+                <i class='fas fa-comments'></i>
+                <span class="span-number">12</span>
+                <i class="fa-solid fa-heart"></i>
+                <span class="span-number">08</span>
+                <i class='fas fa-share'></i>
+              </div>
+              <a href="#" class="blogs-card-a">READ MORE...</a>
+            </div>
+            <div></div>
+            <span class="card-date">07 March</span>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="belog-card ">
+            <div class="card-showbox">
+              <img class=" image"
+                src="./image/top-view-sliced-whole-orange-fresh-juicy-mellow-along-with-silver-knife-green-leaves-brown-wooden-desk-cream-background-citrus-orange.jpg"
+                alt="Card image">
+              <div class="blogs-card-show">
+                <i class="fa-solid fa-magnifying-glass card-show-icon"></i>
+                <i class="fa fa-chain card-show-icon"></i>
+              </div>
+            </div>
+            <div class="card-body text-start">
+              <h6 class=" blogs-card-title mt-3">Defence Secretary Refuses Team</h6>
+              <p class="card-text blogs-card-text">Here's a solution that coueld tackle two of the west's most urgent
+                problems yortung coueld tackle two of the west's most urgent.</p>
+              <span class="carb-body-span"></span>
+              <div class="blogs-card-icon">
+                <i class='fas fa-comments'></i>
+                <span class="span-number">12</span>
+                <i class="fa-solid fa-heart"></i>
+                <span class="span-number">08</span>
+                <i class='fas fa-share'></i>
+              </div>
+              <a href="#" class="blogs-card-a">READ MORE...</a>
+            </div>
+            <span class="card-date">07 March</span>
+          </div>
+        </div>
+        <div class=" col-lg-4 col-md-6 mb-4">
+          <div class="belog-card ">
+            <div class="card-showbox">
+              <img class="image" src="image/modern-monitor-elegant-table.jpg" alt="Card image">
+              <div class=" blogs-card-show">
+                <i class="fa-solid fa-magnifying-glass card-show-icon"></i>
+                <i class="fa fa-chain card-show-icon"></i>
+              </div>
+            </div>
+            <div class="card-body text-start">
+              <h6 class=" blogs-card-title mt-3">John Doe</h6>
+              <p class="card-text blogs-card-text">Here's a solution that coueld tackle two of the west's most urgent
+                problems yortung coueld tackle two of the west's most urgent.</p>
+              <span class="carb-body-span"></span>
+              <div class="blogs-card-icon">
+                <i class='fas fa-comments'></i>
+                <span class="span-number">12</span>
+                <i class="fa-solid fa-heart"></i>
+                <span class="span-number">08</span>
+                <i class='fas fa-share'></i>
+              </div>
+              <a href="#" class="blogs-card-a">READ MORE...</a>
+            </div>
+            <span class="card-date">07 March</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-light text-button mt-5">
+      SEE MORE</button>
+  </section>
+
+  <section class="belog-footer">
+    <div class="belog-footer-container">
+      <div class="container belog-footer-shadow">
+        <div class="row text-center">
+          <div class="col-md-3 column">
+            <i class="fa-solid fa-bolt-lightning belog-footer-icon"></i>
+            <h1 class="mt-2">2310</h1>
+            <p class="mb-0">Projects Completed</p>
+          </div>
+          <div class="col-md-3 column">
+            <i class="fa-solid fa-leaf belog-footer-icon"></i>
+            <h1 class="mt-2">19</h1>
+            <p class="mb-0">Award Wining</p>
+          </div>
+          <div class="col-md-3 column">
+            <i class="fa-regular fa-lightbulb belog-footer-icon"></i>
+            <h1 class="mt-2">20</h1>
+            <p class="mb-0">Recent Updates</p>
+          </div>
+          <div class="col-md-3 ">
+            <i class="fa-solid fa-user belog-footer-icon"></i>
+            <h1 class="mt-2">100%</h1>
+            <p class="mb-0">Satisfied Clints</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container  our-team-contener ">
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center conetent-header-text">
+        <h1 class="mb-0"><b>Our Team</b></h1>
+        <p class="sections-header-text"><b>We always provide acdesign products that leads to customer satisfaction and
+            make
+            then to work with us
+            again and
+            again.</b></p>
+        <div class="underline-squares">
+          <span class="underline-squares-1"></span>
+          <span class="underline-squares-2"></span>
+        </div>
+      </div>
+    </div>
+    <div id="demo3" class="carousel slide mt-4" data-bs-ride="carousel">
+      <div class="carousel-inner team-carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4 ">
+              <div class="team-image-contener">
+                <img class="team-carousel-image" src="./image/beautiful-young-woman-with-long-hair (1).jpg"
+                  alt="Los Angeles" class="d-block" style="width:100%">
+                <div class="team-image-show">
+                  <h6 class="mb-0">FLAME</h6>
+                  <P class="mb-2">web Designer</P>
+                  <div class="header-icons  team-image-icon">
+                    <span> <i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-solid fa-dove social-media-icon"></i></span>
+                    <span><i class="fa-brands fa-google-plus-g social-media-icon"></i></span>
+                    <span> <i class="fa-brands fa-linkedin-in"></i></span>
+                    <span> <i class="fa-brands fa-vimeo"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-image-contener">
+                <img class="team-carousel-image" src="./image/Smiling-Business-Man-Standing-PNG-Image (1).png"
+                  alt="Los Angeles" class="d-block" style="width:100%">
+                <div class="team-image-show">
+                  <h6 class="mb-0">FLAME</h6>
+                  <P class="mb-2">web Designer</P>
+                  <div class="header-icons team-image-icon">
+                    <span> <i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-solid fa-dove social-media-icon"></i></span>
+                    <span><i class="fa-brands fa-google-plus-g social-media-icon"></i></span>
+                    <span> <i class="fa-brands fa-linkedin-in"></i></span>
+                    <span> <i class="fa-brands fa-vimeo"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-image-contener">
+                <img class="team-carousel-image" src="./image/portrait-happy-woman (1).jpg" alt="Los Angeles"
+                  class="d-block" style="width:100%">
+                <div class="team-image-show">
+                  <h6 class="mb-0">FLAME</h6>
+                  <P class="mb-2">web Designer</P>
+                  <div class="header-icons team-image-icon">
+                    <span> <i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-solid fa-dove social-media-icon"></i></span>
+                    <span><i class="fa-brands fa-google-plus-g social-media-icon"></i></span>
+                    <span> <i class="fa-brands fa-linkedin-in"></i></span>
+                    <span> <i class="fa-brands fa-vimeo"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="team-image-contener">
+                <div class="team-image-contener">
+                  <img class="team-carousel-image" src="./image/young-happy-caucasian-woman-isolated (1).jpg"
+                    alt="Los Angeles" class="d-block" style="width:100%">
+                  <div class="team-image-show">
+                    <h6 class="mb-0">FLAME</h6>
+                    <P class="mb-2">web Designer</P>
+                    <div class="header-icons team-image-icon">
+                      <span> <i class="fa-brands fa-facebook-f"></i></span>
+                      <span><i class="fa-solid fa-dove social-media-icon"></i></span>
+                      <span><i class="fa-brands fa-google-plus-g social-media-icon"></i></span>
+                      <span> <i class="fa-brands fa-linkedin-in"></i></span>
+                      <span> <i class="fa-brands fa-vimeo"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="team-image-contener">
+                <img class="team-carousel-image" src="./image/Happy-Man-Transparent-PNG (1) (1).png" alt="Los Angeles"
+                  class="d-block" style="width:100%">
+                <div class="team-image-show">
+                  <h6 class="mb-0">FLAME</h6>
+                  <P class="mb-2">web Designer</P>
+                  <div class="header-icons team-image-icon">
+                    <span> <i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-solid fa-dove social-media-icon"></i></span>
+                    <span><i class="fa-brands fa-google-plus-g social-media-icon"></i></span>
+                    <span> <i class="fa-brands fa-linkedin-in"></i></span>
+                    <span> <i class="fa-brands fa-vimeo"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-image-contener">
+                <img class="team-carousel-image" src="./image/portrait-beautiful-young-happy-woman (1).jpg"
+                  alt="Los Angeles" class="d-block" style="width:100%">
+                <div class="team-image-show">
+                  <h6 class="mb-0">FLAME</h6>
+                  <P class="mb-2">web Designer</P>
+                  <div class="header-icons team-image-icon">
+                    <span> <i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-solid fa-dove social-media-icon"></i></span>
+                    <span><i class="fa-brands fa-google-plus-g social-media-icon"></i></span>
+                    <span> <i class="fa-brands fa-linkedin-in"></i></span>
+                    <span> <i class="fa-brands fa-vimeo"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4 ">
+              <div class="team-image-contener">
+                <img class="team-carousel-image" src="./image/young-smiling-businesswoman (1).jpg" alt="Los Angeles"
+                  class="d-block" style="width:100%">
+                <div class="team-image-show">
+                  <h6 class="mb-0 ">FLAME</h6>
+                  <P class="mb-2">web Designer</P>
+                  <div class="header-icons team-image-icon">
+                    <span> <i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-solid fa-dove social-media-icon"></i></span>
+                    <span><i class="fa-brands fa-google-plus-g social-media-icon"></i></span>
+                    <span> <i class="fa-brands fa-linkedin-in"></i></span>
+                    <span> <i class="fa-brands fa-vimeo"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="team-image-contener">
+                <img class="team-carousel-image"
+                  src="./image/stock-photography-happiness-happy-man-image-royalty-free-man-3edcc67d5a53a7c950c28eec07947f1d (1).png"
+                  alt="Los Angeles" class="d-block" style="width:100%">
+                <div class="team-image-show">
+                  <h6 class="mb-0">FLAME</h6>
+                  <P class="mb-2">web Designer</P>
+                  <div class="header-icons team-image-icon">
+                    <span> <i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-solid fa-dove social-media-icon"></i></span>
+                    <span><i class="fa-brands fa-google-plus-g social-media-icon"></i></span>
+                    <span> <i class="fa-brands fa-linkedin-in"></i></span>
+                    <span> <i class="fa-brands fa-vimeo"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-image-contener">
+                <img class="team-carousel-image"
+                  src="./image/young-smiling-woman-shows-something-palm-isolated-white-background (2).jpg"
+                  alt="Los Angeles" class="d-block" style="width:100%">
+                <div class="team-image-show">
+                  <h6 class="mb-0">FLAME</h6>
+                  <P class="mb-2">web Designer</P>
+                  <div class="header-icons team-image-icon">
+                    <span> <i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-solid fa-dove social-media-icon"></i></span>
+                    <span><i class="fa-brands fa-google-plus-g social-media-icon"></i></span>
+                    <span> <i class="fa-brands fa-linkedin-in"></i></span>
+                    <span> <i class="fa-brands fa-vimeo"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-indicators ">
+        <button type="button" data-bs-target="#demo3" data-bs-slide-to="0" class="active indicators-button"></button>
+        <button class="indicators-button" type="button" data-bs-target="#demo3" data-bs-slide-to="1"></button>
+        <button class="indicators-button" type="button" data-bs-target="#demo3" data-bs-slide-to="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="container happy-Clints-contener">
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center conetent-header-text">
+        <h1><b>Our Happy Clints</b></h1>
+        <p class="sections-header-text"><b>We always provide acdesign products that leads to customer satisfaction and
+            make
+            then to work with usagain andagain.</b></p>
+        <div class="underline-squares">
+          <span class="underline-squares-1"></span>
+          <span class="underline-squares-2"></span>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-4">
+      <div class="col-lg-3 col-md-6 col-9">
+        <div class="happy-clints-card">
+          <i class="fa-solid fa-id-card"></i>
+          <p class="mb-0 ms-1">audioiungle</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-9">
+        <div class="happy-clints-card">
+          <i class="fa-brands fa-github"></i>
+          <p class="mb-0 ms-1">videohive</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-9">
+        <p class="happy-clints-card"><b>virustotal</b></p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-9">
+        <div class="happy-clints-card">
+          <i class='fab fa-chrome'></i>
+          <p class="mb-0 ms-1"><b>Pixeden</b></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class=" bg-dark footer-contaner" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="ms-3 d-flex align-items-center">
+            <a class="logo" href="#">f <span class="logo-border"></span>
+              <h3 class="flame-text ms-4">FLAME</h3>
+            </a>
+          </div>
+          <div class=" footer-text mt-4">
+            <p>address:No.28-68739 Streer United kingdom City,Country</p>
+            <p>Phone:+1(234) 567 8901</p>
+            <p>Fax:+1(234) 567 8901</p>
+            <p>Email:Support@Yourslte.com</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <h5 class="recent-posts mb-0">RECENT POSTS</h5>
+          <div class="row mt-5">
+            <div class="col-lg-3 col-md-3 col-3 p-0">
+              <img class="footer-posts-image"
+                src="./image/handsome-businessman-suit-glasses-cross-arms-chest-look (1).jpg" alt="">
+            </div>
+            <div class="col-lg-9 col-md-9 col-9 ">
+              <h6 class="text-light mb-0">Responsive Design</h6>
+              <p class="mb-0 footer-text">Our developers love to keep their code elegant.</p>
+            </div>
+          </div>
+          <hr class="underline">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-3 p-0">
+              <img class="footer-posts-image" src="./image/1006-10066304_png-images-of-happy-women.jpg" alt="">
+            </div>
+            <div class="col-lg-9 col-md-9 col-9">
+              <h6 class="text-light">Graphics Design</h6>
+              <p class="mb-0 footer-text">Our developers love to keep their code elegant.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <h5 class="recent-posts mb-0">TAGS</h5>
+          <div class="row mt-5">
+            <div class="col-lg-12">
+              <button type="button" class="btn footer-tags-button button-border-top">Business</button>
+              <button type="button" class="btn footer-tags-button button-border-top">Design</button>
+              <button type="button" class="btn footer-tags-button button-border-top">All</button>
+            </div>
+            <div class="col-lg-12">
+              <button type="button" class="btn footer-tags-button button-border-bottom">Awesome</button>
+              <button type="button" class="btn footer-tags-button button-border-bottom">Photography</button>
+            </div>
+            <div class="col-lg-12">
+              <button type="button" class="btn footer-tags-button">Media</button>
+              <button type="button" class="btn footer-tags-button">Creative</button>
+              <button type="button" class="btn footer-tags-button">Art</button>
+            </div>
+            <div class="col-lg-12">
+              <button type="button" class="btn footer-tags-button button-border-top">html</button>
+              <button type="button" class="btn footer-tags-button buttom-border">Multipurpose</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12 col-12">
+          <h5 class="recent-posts mb-0">FLICKR GALLERY</h5>
+          <div class="row flickr-gallery-row mt-5">
+            <div class="col-md-3 col-6 p-0">
+              <img class="footer-gallery-image" src="./image/beautiful-love.jpg" alt="">
+            </div>
+            <div class="col-md-3 col-6 p-0">
+              <img class="footer-gallery-image" src="./image/download.jpg" alt="">
+            </div>
+            <div class="col-md-3 col-6 p-0">
+              <img class="footer-gallery-image" src="./image/pexels-gotta-be-worth-it-919278.jpg" alt="">
+            </div>
+            <div class="col-md-3 col-6 p-0">
+              <img class="footer-gallery-image" src="./image/images.jpg" alt="">
+            </div>
+            <div class="col-md-3 col-6 p-0">
+              <img class="footer-gallery-image" src="./image/pexels-james-wheeler-417074.jpg" alt="">
+            </div>
+            <div class="col-md-3 col-6 p-0">
+              <img class="footer-gallery-image" src="./image/pexels-pixabay-53184.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#top"><span class="back-up-button"><i class='fas fa-angle-up'></i></span>
+    </a>
+  </section>
+
+  <div class="footer-copyright">
+    <p class="mb-0">&#169; 2017 flame.All Rights Perculatheme</p>
+  </div>
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          Modal body..
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
